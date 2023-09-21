@@ -94,7 +94,7 @@ const FatoAleatorio: React.FC = () => {
                         width="50%"
                         required
                     />
-                    <Button type="submit" mt={2}>
+                    <Button type="submit" mt={2} bg={"blue.400"}>
                         Buscar Fato
                     </Button>
 

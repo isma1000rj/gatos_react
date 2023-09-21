@@ -25,7 +25,7 @@ const Fato: React.FC = () => {
             });
             setFatos(prevFatos => [...prevFatos, response.data.fact]);
         } catch (error) {
-            console.error("There was an error fetching the cat fact:", error);
+            console.error("Ouve um erro buscando o fato:", error);
         }
     };
 
@@ -56,7 +56,7 @@ const Fato: React.FC = () => {
                         width="50%"
                         required
                     />
-                    <Button type="submit" mt={2} bg={"blue.400"}>
+                    <Button type="submit" mt={2} bg={"orange.400"}>
                         Buscar
                     </Button>
 
